@@ -178,7 +178,8 @@ P = a + b + c
   - result = perimeter(3, 4, 5)
   - print(result) # Вывод: 12
     
-# История изменения проекта с хешами комитов:  
+# История изменения проекта с хешами комитов:
+  - b35fcc7 (HEAD -> main, origin/main, origin/HEAD) добавлены тесты
   - 76566f4(HEAD -> new\_fearures\_501292) Исправлена ошибка в вычислении периметра прямоугольника
   - 81ffded added rectangle
   - 8bffded (main) commit 2
