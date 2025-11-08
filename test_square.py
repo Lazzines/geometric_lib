@@ -1,0 +1,28 @@
+import unittest
+from square import area, perimeter
+
+class SquareTestCase(unittest.TestCase):
+
+    def test_area_zero(self):
+        res = area(0)
+        self.assertEqual(res, 0)
+
+    def test_area_positive(self):
+        res = area(5)
+        self.assertEqual(res, 25)
+
+    def test_area_negative(self):
+        res = area(-3)
+        self.assertEqual(res, 9)
+
+    def test_perimeter_zero(self):
+        res = perimeter(0)
+        self.assertEqual(res, 0)
+
+    def test_perimeter_positive(self):
+        res = perimeter(5)
+        self.assertEqual(res, 20)
+
+    def test_perimeter_negative(self):
+        res = perimeter(-3)
+        self.assertEqual(res, -12)
